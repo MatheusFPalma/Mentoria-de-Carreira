@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import { person } from "../../data/Person";
 import DefaultTheme from "../../config/theme/DefaultTheme";
 import { ThemeProvider } from "styled-components";
-import { FaLinkedin, FaGithub } from "react-icons/fa"; // Importe os ícones do LinkedIn e GitHub
+import { FaLinkedin, FaGithub } from "react-icons/fa";
 
 interface AboutProps {
   personagem: string;
@@ -22,7 +22,6 @@ const About: React.FC<AboutProps> = ({ personagem }) => {
             <p>{personagemSelecionado.descricao}</p>
             <p>{personagemSelecionado.softSkills}</p>
 
-            {/* Links do LinkedIn e GitHub com ícones */}
             <div>
               <a
                 href={personagemSelecionado.linkedin}
