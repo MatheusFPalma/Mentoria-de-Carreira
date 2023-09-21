@@ -14,7 +14,7 @@ function App() {
     }
   }, [showAbout]);
 
-  const handleCardClick = (personagem, backgroundColor) => {
+  const handleCardClick = (personagem: React.SetStateAction<string>, backgroundColor: React.SetStateAction<string>) => {
     setSelectedPersonagem(personagem);
     setShowAbout(true);
     setBodyBackground(backgroundColor);

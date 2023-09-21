@@ -1,7 +1,5 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { person } from "../../data/Person";
-import DefaultTheme from "../../config/theme/DefaultTheme";
-import { ThemeProvider } from "styled-components";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 
 interface AboutProps {
